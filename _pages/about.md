@@ -27,6 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Marketing Professor at Singapore Management University. My research interests include consumer behavior, judgment and decision making, and marketing strategy.
+I am an Associate Professor of Marketing at the [Lee Kong Chian School of Business](https://business.smu.edu.sg/), Singapore Management University. I also serve as Director of PhD Programmes, Chair of the Institutional Review Board, and Senate Chair.
 
-Please visit my [SMU faculty page](https://faculty.smu.edu.sg/profile/hannah-h-chang-2236) for more details.
+My research focuses on consumer behavior, consumer judgment and decision-making, affect (feelings and moods), consumer experiences, and innovation/entrepreneurship. My work has been published in leading journals including the *Journal of Consumer Research*, *Journal of Marketing Research*, and *Psychological Science*.
+
+I received my Ph.D. and M.Phil. in Marketing from Columbia University, and my B.A. in Economics from the University of California.
