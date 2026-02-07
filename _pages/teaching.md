@@ -2,10 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description:
+description: Courses taught, guest lectures, and doctoral dissertation supervision.
 nav: true
 nav_order: 6
 ---
+
+<br>
 
 ### Singapore Management University, LKCSB
 <span style="font-size: 0.85em; font-weight: normal; color: #666;">— over 85 sections (2009–2025)</span>
