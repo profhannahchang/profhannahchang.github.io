@@ -52,12 +52,12 @@
           margin-bottom: 0.5rem;
           color: white !important;
 
-          a, div {
-            color: white;
+          * {
+            color: white !important;
+          }
 
-            &:hover {
-              text-decoration: none;
-            }
+          a:hover {
+            text-decoration: none;
           }
         }
 
