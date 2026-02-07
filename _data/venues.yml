@@ -1,28 +1,28 @@
-# Academic Journals - deep blue
+# Academic Journals - purple
 JCR:
-  color: "#8b2332"
+  color: "#a832a8"
 JMR:
-  color: "#8b2332"
+  color: "#a832a8"
 Psych Sci:
-  color: "#8b2332"
+  color: "#a832a8"
 Mgmt Sci:
-  color: "#8b2332"
+  color: "#a832a8"
 
-# Book Chapters - teal
+# Book Chapters - bright teal
 Book Ch.:
-  color: "#2e7d6f"
+  color: "#00a5a8"
 
-# Cases - warm orange
+# Cases - coral
 Case:
-  color: "#c27522"
+  color: "#e8583a"
 
-# Textbooks - purple
+# Textbooks - green
 Textbook:
-  color: "#7b4ea3"
+  color: "#28a745"
 
-# Law Journals - dark red
+# Law Journals - bold blue
 Law Journal:
-  color: "#2a6496"
+  color: "#4078c0"
 
 # Practitioner / Public Scholarship - slate gray
 Practitioner:
