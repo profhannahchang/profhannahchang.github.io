@@ -1,9 +1,35 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Academic Journals - deep blue
+JCR:
+  color: "#2a6496"
+JMR:
+  color: "#2a6496"
+Psych Sci:
+  color: "#2a6496"
+Mgmt Sci:
+  color: "#2a6496"
 
-"PhysRev":
-  url: https://journals.aps.org/
+# Book Chapters - teal
+Book Ch.:
+  color: "#2e7d6f"
 
-"Vision":
-  color: "#009f36"
+# Cases - warm orange
+Case:
+  color: "#c27522"
+
+# Textbooks - purple
+Textbook:
+  color: "#7b4ea3"
+
+# Practitioner / Public Scholarship - slate gray
+Practitioner:
+  color: "#6c757d"
+CMR:
+  color: "#6c757d"
+Straits Times:
+  color: "#6c757d"
+Biz Times:
+  color: "#6c757d"
+Tabla!:
+  color: "#6c757d"
+EMAC:
+  color: "#6c757d"
