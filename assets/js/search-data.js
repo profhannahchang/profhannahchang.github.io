@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "",
+          description: "Courses taught, guest lectures, and doctoral dissertation supervision.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
