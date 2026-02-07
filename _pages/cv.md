@@ -7,12 +7,6 @@ nav_order: 5
 description:
 ---
 
-<div style="width: 100%; height: 800px;">
-  <iframe
-    src="{{ '/assets/pdf/CV.pdf#toolbar=0&navpanes=0&scrollbar=1' | relative_url }}"
-    width="100%"
-    height="100%"
-    style="border: none;"
-    type="application/pdf">
-  </iframe>
-</div>
+<object data="{{ '/assets/pdf/CV.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px" style="border: none;">
+  <p>Your browser does not support embedded PDFs. <a href="{{ '/assets/pdf/CV.pdf' | relative_url }}">Download the CV here</a>.</p>
+</object>
