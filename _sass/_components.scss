@@ -215,6 +215,35 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Social icons in profile sidebar (smaller, compact)
+.profile .social {
+  .contact-icons {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+
+    a {
+      img {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-bottom: 0;
+      }
+
+      svg {
+        width: 1.4rem;
+        height: 1.4rem;
+        margin-bottom: 0;
+
+        image {
+          width: 1.4rem;
+          height: 1.4rem;
+        }
+      }
+    }
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;
