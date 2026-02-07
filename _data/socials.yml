@@ -1,5 +1,8 @@
 # Social media links
-email: hannahchang@smu.edu.sg
+faculty_page:
+  logo: fas fa-envelope
+  title: Email
+  url: https://faculty.smu.edu.sg/profile/hannah-h-chang-2236
 scholar_userid: Qwr1ZwgAAAAJ
 orcid_id: 0000-0001-8653-0990
 github_username: profhannahchang
