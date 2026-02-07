@@ -50,9 +50,9 @@
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
+          color: white !important;
 
-          a {
+          a, div {
             color: white;
 
             &:hover {
