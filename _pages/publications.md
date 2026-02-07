@@ -7,9 +7,29 @@ nav: true
 nav_order: 2
 ---
 
+<style>
+  .pub-toggle {
+    border: 1px solid var(--global-theme-color);
+    color: var(--global-theme-color);
+    background: transparent;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    margin-right: 0.25rem;
+  }
+  .pub-toggle:hover {
+    background: var(--global-theme-color);
+    color: white;
+  }
+  .pub-toggle.active {
+    background: var(--global-theme-color);
+    color: white;
+  }
+</style>
 <div style="margin-bottom: 1.5rem;">
-  <button class="btn btn-sm btn-outline-primary active" id="btn-type" onclick="showView('type')" style="margin-right: 0.25rem;">By Type</button>
-  <button class="btn btn-sm btn-outline-primary" id="btn-year" onclick="showView('year')">By Year</button>
+  <button class="pub-toggle active" id="btn-type" onclick="showView('type')">By Type</button>
+  <button class="pub-toggle" id="btn-year" onclick="showView('year')">By Year</button>
 </div>
 
 <!-- ===================== VIEW BY TYPE ===================== -->
