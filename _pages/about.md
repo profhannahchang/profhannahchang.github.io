@@ -27,6 +27,6 @@ latest_posts:
 
 At SMU, I serve as IRB Chair and Faculty Senate Chair. I was Director of PhD Programmes at [Lee Kong Chian School of Business](https://business.smu.edu.sg/) (2020–2023).
 
-My research focuses on consumer behavior and decision making, affect, consumer experience, and technology-mediated marketplaces (e.g., crowdfunding, AI/LLMs, and voice technology). My work has appeared in leading journals and is supported by competitive external grants, including four MOE Tier 2 grants and a National Research Foundation grant. I serve as Area Editor at the *International Journal of Research in Marketing* and Associate Editor (Research Articles) at the *Journal of Consumer Psychology*.
+My research focuses on consumer behavior and decision making, affect, consumer experience, and technology-mediated marketplaces (e.g., crowdfunding, AI/LLMs, and voice technology). My work has appeared in leading journals and is supported by competitive external grants, including four MOE Tier 2 grants and a National Research Foundation grant. I serve as Area Editor at the *International Journal of Research in Marketing* and Associate Editor at the *Journal of Consumer Psychology*.
 
 I received my Ph.D. and M.Phil. in Marketing from Columbia University and my B.A. (*Summa Cum Laude*) in Economics from UC Irvine.
