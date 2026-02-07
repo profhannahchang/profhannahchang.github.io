@@ -10,7 +10,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Singapore Management University</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,6 +27,10 @@ latest_posts:
 
 I am an Associate Professor of Marketing at the [Lee Kong Chian School of Business](https://business.smu.edu.sg/) (LKCSB), [Singapore Management University](https://www.smu.edu.sg/) (SMU). At SMU, I serve as Faculty Senate Chair and IRB Chair. I was previously Director of PhD Programmes at LKCSB (2020–2023).
 
-My research focuses on consumer behavior, judgment and decision making, affect (feelings and moods), consumer experience, and innovation and technology-mediated marketplace (crowdfunding, crowdsourcing, AI & LLMs, voice technology). My work has been published in leading journals including the *Journal of Consumer Research*, *Journal of Marketing Research*, and *Psychological Science*. I serve as Area Editor at the *International Journal of Research in Marketing* and Associate Editor (Research Articles) at the *Journal of Consumer Psychology*.
+**Research Interests:** Consumer behavior, judgment and decision making, affect (feelings and moods), consumer experience, and innovation and technology-mediated marketplace (crowdfunding, crowdsourcing, AI & LLMs, voice technology).
 
-I received my Ph.D. and M.Phil. in Marketing from Columbia University, and my B.A. in Economics from the University of California, Irvine.
+**Editorial Service:** Area Editor, *International Journal of Research in Marketing*; Associate Editor (Research Articles), *Journal of Consumer Psychology*.
+
+**Selected Publications:** *Journal of Consumer Research*, *Journal of Marketing Research*, *Psychological Science*, *Management Science*.
+
+**Education:** Ph.D. and M.Phil. in Marketing, Columbia University; B.A. in Economics (*Summa Cum Laude*), University of California, Irvine.
