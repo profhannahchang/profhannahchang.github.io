@@ -465,11 +465,11 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-email',
-        title: 'email',
+        id: 'social-faculty_page',
+        title: 'Faculty_page',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%68%61%6E%6E%61%68%63%68%61%6E%67@%73%6D%75.%65%64%75.%73%67", "_blank");
+          window.open("https://faculty.smu.edu.sg/profile/hannah-h-chang-2236", "_blank");
         },
       },{
         id: 'social-scholar',
