@@ -7,7 +7,8 @@ nav: true
 nav_order: 6
 ---
 
-## Singapore Management University, LKCSB — over 85 sections (2009–2025)
+### Singapore Management University, LKCSB
+<span style="font-size: 0.85em; font-weight: normal; color: #666;">— over 85 sections (2009–2025)</span>
 
 **Doctoral Level** (DBA, PhD)
 
@@ -38,7 +39,7 @@ nav_order: 6
 
 ---
 
-## Guest Lectures
+### Guest Lectures
 
 - School of Social Science, SMU: Contingent Valuation (2017)
 - Tamkang University, Taiwan: Social Power and Decision Making (2018)
@@ -46,13 +47,13 @@ nav_order: 6
 
 ---
 
-## Teaching Assistantships at Columbia University
+### Teaching Assistantships at Columbia University
 
 Managing Marketing Programs (MBA Core), New Product Development (EMBA/MBA), Marketing Arts Culture & Education (MBA), Experimental Design and Analysis (PhD), Introduction to Marketing (Undergraduate)
 
 ---
 
-## Doctoral Dissertation Committees
+### Doctoral Dissertation Committees
 
 **Committee Chair**
 
