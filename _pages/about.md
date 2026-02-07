@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Associate Professor of Marketing at the [Lee Kong Chian School of Business](https://business.smu.edu.sg/), Singapore Management University. I also serve as Director of PhD Programmes, Chair of the Institutional Review Board, and Senate Chair.
+I am an Associate Professor of Marketing at the [Lee Kong Chian School of Business](https://business.smu.edu.sg/), Singapore Management University. I serve as Chair of the Institutional Review Board and Senate Chair. I was previously Director of PhD Programmes at LKCSB (2020–2023).
 
 My research focuses on consumer behavior, consumer judgment and decision-making, affect (feelings and moods), consumer experiences, and innovation/entrepreneurship. My work has been published in leading journals including the *Journal of Consumer Research*, *Journal of Marketing Research*, and *Psychological Science*.
 
