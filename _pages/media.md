@@ -21,7 +21,7 @@ nav_order: 4
 
 - **Persuasive Crowdfunding Video Voiceovers** — ResearchPod, June 2023. [(listen)](https://researchpod.org/business/persuasive-crowdfunding-video-voiceovers)
 
-- **Persuading the Crowd to Back Your Innovation** — SMU City Perspectives, August 2019. [(listen)](https://cityperspectives.smu.edu.sg/podcast/persuading-crowd-back-your-innovation)
+- **Persuading the Crowd to Back Your Innovation** — SMU City Perspectives, August 2019. [(listen)](https://cityperspectives.smu.edu.sg/podcast/persuading-crowd-back-your-innovation) <a class="media-embed-toggle" data-embed="soundcloud" data-src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/sgsmu/podcast-hannah-chang-final-22072019&color=%23be5aba&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false" style="cursor:pointer;color:var(--global-theme-color);font-size:0.85em;">[&#9654; play]</a>
 
 - **Subscription Boxes** — Podcasts@SMU, June 2016.
 
@@ -49,6 +49,33 @@ nav_order: 4
 
 - **Unlocking Hidden Consumer Insights: How AI Can Enhance Video Marketing Strategies** — SMU City Perspectives, June 2023. [(read)](https://cityperspectives.smu.edu.sg/article/unlocking-hidden-consumer-insights-how-ai-can-enhance-video-marketing-strategies)
 
-- **Digital Senior** — September 2018. [(read)](https://news.smu.edu.sg/sites/news.smu.edu.sg/files/wwwsmu/news_room/smu_in_the_news/2018/Sep2018/Sep18/20180918-DigitalSenior-News-Exclusive.pdf)
-
 - **Getting Into The Mind Of The Consumer** — *Asian Scientist Magazine*, June 2014. [(read)](https://www.asianscientist.com/2014/06/features/smu-hannah-chang-2014/)
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.media-embed-toggle').forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      var li = this.closest('li');
+      var existing = li.querySelector('.media-embed-player');
+      if (existing) {
+        existing.style.display = existing.style.display === 'none' ? 'block' : 'none';
+        return;
+      }
+      var div = document.createElement('div');
+      div.className = 'media-embed-player';
+      div.style.marginTop = '0.5rem';
+      var iframe = document.createElement('iframe');
+      iframe.width = '100%';
+      iframe.height = '166';
+      iframe.scrolling = 'no';
+      iframe.frameBorder = 'no';
+      iframe.allow = 'autoplay';
+      iframe.src = this.dataset.src;
+      iframe.style.borderRadius = '8px';
+      div.appendChild(iframe);
+      li.appendChild(div);
+    });
+  });
+});
+</script>
