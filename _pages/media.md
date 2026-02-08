@@ -19,7 +19,7 @@ nav_order: 4
 
 ### Podcasts
 
-- **Persuasive Crowdfunding Video Voiceovers** — ResearchPod, June 2023. [(listen)](https://researchpod.org/business/persuasive-crowdfunding-video-voiceovers)
+- **Persuasive Crowdfunding Video Voiceovers** — ResearchPod, June 2023. [(listen)](https://researchpod.org/business/persuasive-crowdfunding-video-voiceovers) <a class="media-embed-toggle" data-embed="audio" data-src="/assets/audio/podcasts/persuasive-crowdfunding-video-voiceovers.mp3" style="cursor:pointer;color:var(--global-theme-color);font-size:0.85em;">[&#9654; play]</a>
 
 - **Persuading the Crowd to Back Your Innovation** — SMU City Perspectives, August 2019. [(listen)](https://engage.smu.edu.sg/podcasts/persuading-crowd-back-your-innovation) <a class="media-embed-toggle" data-embed="soundcloud" data-src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/sgsmu/podcast-hannah-chang-final-22072019&color=%23be5aba&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false" style="cursor:pointer;color:var(--global-theme-color);font-size:0.85em;">[&#9654; play]</a>
 
@@ -65,15 +65,23 @@ document.addEventListener('DOMContentLoaded', function() {
       var div = document.createElement('div');
       div.className = 'media-embed-player';
       div.style.marginTop = '0.5rem';
-      var iframe = document.createElement('iframe');
-      iframe.width = '100%';
-      iframe.height = '166';
-      iframe.scrolling = 'no';
-      iframe.frameBorder = 'no';
-      iframe.allow = 'autoplay';
-      iframe.src = this.dataset.src;
-      iframe.style.borderRadius = '8px';
-      div.appendChild(iframe);
+      if (this.dataset.embed === 'audio') {
+        var audio = document.createElement('audio');
+        audio.controls = true;
+        audio.style.width = '100%';
+        audio.src = this.dataset.src;
+        div.appendChild(audio);
+      } else {
+        var iframe = document.createElement('iframe');
+        iframe.width = '100%';
+        iframe.height = '166';
+        iframe.scrolling = 'no';
+        iframe.frameBorder = 'no';
+        iframe.allow = 'autoplay';
+        iframe.src = this.dataset.src;
+        iframe.style.borderRadius = '8px';
+        div.appendChild(iframe);
+      }
       li.appendChild(div);
     });
   });
