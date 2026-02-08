@@ -19,7 +19,7 @@ nav_order: 4
 
 ### Podcasts
 
-- **Persuasive Crowdfunding Video Voiceovers** — ResearchPod, June 2023. [(listen)](https://researchpod.org/business/persuasive-crowdfunding-video-voiceovers) <a class="media-embed-toggle" data-embed="audio" data-src="/assets/audio/podcasts/persuasive-crowdfunding-video-voiceovers.mp3" style="cursor:pointer;color:var(--global-theme-color);font-size:0.85em;">[&#9654; play]</a>
+- **Persuasive Crowdfunding Video Voiceovers** — ResearchPod, June 2023. [(listen)](https://research.smu.edu.sg/news/persuasive-crowdfunding-video-voiceovers) <a class="media-embed-toggle" data-embed="audio" data-src="/assets/audio/podcasts/persuasive-crowdfunding-video-voiceovers.mp3" style="cursor:pointer;color:var(--global-theme-color);font-size:0.85em;">[&#9654; play]</a>
 
 - **Persuading the Crowd to Back Your Innovation** — SMU City Perspectives, August 2019. [(listen)](https://engage.smu.edu.sg/podcasts/persuading-crowd-back-your-innovation) <a class="media-embed-toggle" data-embed="soundcloud" data-src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/sgsmu/podcast-hannah-chang-final-22072019&color=%23be5aba&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false" style="cursor:pointer;color:var(--global-theme-color);font-size:0.85em;">[&#9654; play]</a>
 
