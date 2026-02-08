@@ -33,7 +33,7 @@ nav_order: 4
 </div>
 
 <!-- ===================== VIEW BY TYPE ===================== -->
-<div id="view-type">
+<div id="view-type" markdown="1">
 
 ### Television Programs
 
