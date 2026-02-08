@@ -1,10 +1,9 @@
 ---
 layout: page
-permalink: /media/
-title: media
-description: Selected media appearances, interviews, and commentaries.
-nav: true
-nav_order: 4
+title: media (backup - full 158 items)
+description: Backup copy of full media page with 158 items, toggle buttons, and links.
+nav: false
+published: false
 ---
 
 <style>
