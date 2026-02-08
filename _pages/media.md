@@ -17,9 +17,15 @@ nav_order: 4
 
 ---
 
-### Podcast
+### Podcasts
+
+- **Persuasive Crowdfunding Video Voiceovers** — ResearchPod, June 2023. [(listen)](https://researchpod.org/business/persuasive-crowdfunding-video-voiceovers)
 
 - **Persuading the Crowd to Back Your Innovation** — SMU City Perspectives, August 2019. [(listen)](https://cityperspectives.smu.edu.sg/podcast/persuading-crowd-back-your-innovation)
+
+- **Subscription Boxes** — Podcasts@SMU, June 2016.
+
+- **Consumer Decision-Making: Feelings versus Reasons** — Podcasts@SMU, June 2015.
 
 ---
 
@@ -39,6 +45,10 @@ nav_order: 4
 
 ---
 
-### Academic Profile
+### Articles & Features
+
+- **Unlocking Hidden Consumer Insights: How AI Can Enhance Video Marketing Strategies** — SMU City Perspectives, June 2023. [(read)](https://cityperspectives.smu.edu.sg/article/unlocking-hidden-consumer-insights-how-ai-can-enhance-video-marketing-strategies)
+
+- **Digital Senior** — September 2018. [(read)](https://news.smu.edu.sg/sites/news.smu.edu.sg/files/wwwsmu/news_room/smu_in_the_news/2018/Sep2018/Sep18/20180918-DigitalSenior-News-Exclusive.pdf)
 
 - **Getting Into The Mind Of The Consumer** — *Asian Scientist Magazine*, June 2014. [(read)](https://www.asianscientist.com/2014/06/features/smu-hannah-chang-2014/)
