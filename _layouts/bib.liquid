@@ -256,7 +256,7 @@
         {% endif %}
       {% endif %}
       {% if entry.podcast %}
-        <a href="{{ entry.podcast }}" class="btn btn-sm z-depth-0" role="button">Podcast</a>
+        <a class="btn btn-sm z-depth-0" role="button" onclick="var el=this.closest('.row').querySelector('.podcast-embed');el.style.display=el.style.display==='none'?'block':'none';">Podcast</a>
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
@@ -392,6 +392,15 @@
       <!-- Hidden video block -->
       <div class="abstract hidden">
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+      </div>
+    {% endif %}
+
+    {% if entry.podcast %}
+      <!-- Hidden podcast embed block -->
+      <div class="podcast-embed" style="display:none;margin-top:10px;">
+        <div style="text-align: center;">
+          <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="{{ entry.podcast | replace: 'podcasts.apple.com', 'embed.podcasts.apple.com' }}"></iframe>
+        </div>
       </div>
     {% endif %}
   </div>

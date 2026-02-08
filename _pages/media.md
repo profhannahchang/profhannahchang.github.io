@@ -33,7 +33,7 @@ nav_order: 4
 </div>
 
 <!-- ===================== VIEW BY TYPE ===================== -->
-<div id="view-type" markdown="1">
+<div id="media-type-start"></div>
 
 ### Television Programs
 
@@ -205,7 +205,7 @@ nav_order: 4
 - Expert interview video clip (web exclusive) on Channel8News.sg, on retail brand collaboration with well-known cartoon characters (Sep. 2016)
 - Expert interview video clip (web exclusive) on Channel8News.sg, on subscription box in Singapore (Apr. 2016)
 
-</div>
+<div id="media-type-end"></div>
 
 <!-- ===================== VIEW BY YEAR ===================== -->
 <div id="view-year" style="display: none;"></div>
@@ -219,6 +219,17 @@ function showMediaView(view) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Dynamically wrap rendered markdown content into a view-type div
+  var start = document.getElementById('media-type-start');
+  var end = document.getElementById('media-type-end');
+  var wrapper = document.createElement('div');
+  wrapper.id = 'view-type';
+  start.parentNode.insertBefore(wrapper, start.nextSibling);
+  while (wrapper.nextSibling && wrapper.nextSibling !== end) {
+    wrapper.appendChild(wrapper.nextSibling);
+  }
+
+  // Build year view from the rendered list items
   var typeView = document.getElementById('view-type');
   var yearView = document.getElementById('view-year');
   var items = typeView.querySelectorAll('li');
