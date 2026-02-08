@@ -39,7 +39,7 @@ nav_order: 4
 
 - **Chang, H. H.** (2018). How Parents Decide on Baby Milk Purchases. *The Straits Times*, February 9. [(read)](https://news.smu.edu.sg/news/2018/02/09/how-parents-decide-baby-milk-purchases)
 
-- Mukherjee, A. and **Chang, H. H.** (2018). Innovation and Small Business Success. *Tabla!*, June 8.
+- Mukherjee, A. and **Chang, H. H.** (2018). Innovation and Small Business Success. *Tabla!*, June 8. [(read)](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=6996&context=lkcsb_research)
 
 - **Chang, H. H.** (2014). A Dynamic and Growing Community of Marketing Academics in Singapore. *The EMAC Chronicle*, May 4, 19–20.
 
