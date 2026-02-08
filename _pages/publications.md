@@ -35,39 +35,39 @@ nav_order: 2
 <!-- ===================== VIEW BY TYPE ===================== -->
 <div id="view-type">
 
-## Academic Publications
+<h2>Academic Publications</h2>
 
-### Journal Publications
+<h3>Journal Publications</h3>
 
 <div class="publications">
 {% bibliography --query @*[keywords=journal] %}
 </div>
 
-### Book Chapters
+<h3>Book Chapters</h3>
 
 <div class="publications">
 {% bibliography --query @*[keywords=chapter] %}
 </div>
 
----
+<hr>
 
-## Pedagogical Publications
+<h2>Pedagogical Publications</h2>
 
-### Casewriting
+<h3>Casewriting</h3>
 
 <div class="publications">
 {% bibliography --query @*[keywords=case] %}
 </div>
 
-### Textbooks
+<h3>Textbooks</h3>
 
 <div class="publications">
 {% bibliography --query @*[keywords=textbook] %}
 </div>
 
----
+<hr>
 
-## Practitioner Publications & Public Scholarship
+<h2>Practitioner Publications &amp; Public Scholarship</h2>
 
 <div class="publications">
 {% bibliography --query @*[keywords=practitioner] %}
