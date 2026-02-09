@@ -26,6 +26,13 @@ nav_order: 4
     background: var(--global-theme-color);
     color: white;
   }
+  #view-year h2.bibliography {
+    color: var(--global-divider-color);
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+    margin-top: 2rem;
+    text-align: right;
+  }
 </style>
 <div style="margin-bottom: 1.5rem;">
   <button class="pub-toggle active" id="btn-type" onclick="showMediaView('type')">By Type</button>
@@ -125,9 +132,10 @@ document.addEventListener('DOMContentLoaded', function() {
   var years = Object.keys(yearMap).sort(function(a,b){ return b - a; });
   years.forEach(function(year) {
     yearMap[year].sort(function(a,b){ return b.sort - a.sort; });
-    var h3 = document.createElement('h3');
-    h3.textContent = year;
-    yearView.appendChild(h3);
+    var h2 = document.createElement('h2');
+    h2.className = 'bibliography';
+    h2.textContent = year;
+    yearView.appendChild(h2);
     var ul = document.createElement('ul');
     yearMap[year].forEach(function(obj){ ul.appendChild(obj.el); });
     yearView.appendChild(ul);
