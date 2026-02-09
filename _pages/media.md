@@ -135,6 +135,12 @@ document.addEventListener('DOMContentLoaded', function() {
     var h2 = document.createElement('h2');
     h2.className = 'bibliography';
     h2.textContent = year;
+    var dividerColor = getComputedStyle(document.documentElement).getPropertyValue('--global-divider-color').trim() || '#dee2e6';
+    h2.style.color = dividerColor;
+    h2.style.borderTop = '1px solid ' + dividerColor;
+    h2.style.paddingTop = '1rem';
+    h2.style.marginTop = '2rem';
+    h2.style.textAlign = 'right';
     yearView.appendChild(h2);
     var ul = document.createElement('ul');
     yearMap[year].forEach(function(obj){ ul.appendChild(obj.el); });
