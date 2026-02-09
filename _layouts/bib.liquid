@@ -412,6 +412,22 @@
       <div class="visual-summary-embed" style="display:none;margin-top:10px;">
         <div style="text-align: center;">
           <img src="{{ entry.visual_summary | relative_url }}" alt="Visual Summary" style="width:100%;max-width:900px;border-radius:8px;" />
+          <p style="font-size:0.85em;color:gray;margin-top:0.5rem;text-align:left;">
+            {%- assign num_authors = entry.author_array | size -%}
+            {%- for author in entry.author_array -%}
+              {%- assign first_names = author.first | split: ' ' -%}
+              {{ author.last }}, {% for fn in first_names %}{{ fn | slice: 0 }}.{% unless forloop.last %} {% endunless %}{% endfor %}
+              {%- if forloop.last == false -%}
+                {%- assign next_idx = forloop.index | plus: 1 -%}
+                {%- if next_idx == num_authors %}, &amp; {% else %}, {% endif -%}
+              {%- endif -%}
+            {%- endfor %}
+            ({{ entry.year }}). {{ entry.title }}. <em>{{ entry.journal }}</em>
+            {%- if entry.volume %}, {{ entry.volume }}{% endif -%}
+            {%- if entry.number %}({{ entry.number }}){% endif -%}
+            {%- if entry.pages %}, {{ entry.pages | replace: '--', '–' }}{% endif -%}
+            .
+          </p>
         </div>
       </div>
     {% endif %}
