@@ -7,6 +7,33 @@ nav: true
 nav_order: 4
 ---
 
+<style>
+  .media-toggle {
+    border: 1px solid var(--global-theme-color);
+    color: var(--global-theme-color);
+    background: transparent;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    margin-right: 0.25rem;
+  }
+  .media-toggle:hover {
+    background: var(--global-theme-color);
+    color: white;
+  }
+  .media-toggle.active {
+    background: var(--global-theme-color);
+    color: white;
+  }
+</style>
+<div style="margin-bottom: 1.5rem;">
+  <button class="media-toggle active" id="btn-type" onclick="showMediaView('type')">By Type</button>
+  <button class="media-toggle" id="btn-year" onclick="showMediaView('year')">By Year</button>
+</div>
+
+<div id="media-type-start"></div>
+
 ### Television & Video Interviews
 
 - **Online Travel Booking Services** — Channel NewsAsia *Singapore Tonight*, April 2018. [(watch)](https://mediacast.smu.edu.sg/media/Assoc+Prof+Hannah+Chang+interviewed+about+online+travel+booking+services+(CNA)/0_c513qq60/44087142)
@@ -51,39 +78,100 @@ nav_order: 4
 
 - **Getting Into The Mind Of The Consumer** — *Asian Scientist Magazine*, June 2014. [(read)](https://www.asianscientist.com/2014/06/features/smu-hannah-chang-2014/)
 
+<div id="media-type-end"></div>
+
+<div id="view-year" style="display: none;"></div>
+
 <script>
+function showMediaView(view) {
+  document.getElementById('view-type').style.display = (view === 'type') ? 'block' : 'none';
+  document.getElementById('view-year').style.display = (view === 'year') ? 'block' : 'none';
+  document.getElementById('btn-type').classList.toggle('active', view === 'type');
+  document.getElementById('btn-year').classList.toggle('active', view === 'year');
+}
+
 document.addEventListener('DOMContentLoaded', function() {
+  // Wrap rendered markdown into view-type div
+  var start = document.getElementById('media-type-start');
+  var end = document.getElementById('media-type-end');
+  var wrapper = document.createElement('div');
+  wrapper.id = 'view-type';
+  start.parentNode.insertBefore(wrapper, start.nextSibling);
+  while (wrapper.nextSibling && wrapper.nextSibling !== end) {
+    wrapper.appendChild(wrapper.nextSibling);
+  }
+
+  // Build year view from rendered list items
+  var typeView = document.getElementById('view-type');
+  var yearView = document.getElementById('view-year');
+  var items = typeView.querySelectorAll('li');
+  var yearMap = {};
+  var months = {'Jan':1,'Feb':2,'Mar':3,'Apr':4,'May':5,'Jun':6,'Jul':7,'Aug':8,'Sep':9,'Oct':10,'Nov':11,'Dec':12};
+
+  items.forEach(function(item) {
+    var text = item.textContent;
+    var match = text.match(/(\b(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\.?)[\s,]+(\d{1,2})?[\s,]*(\d{4})/);
+    if (match) {
+      var year = match[3];
+      var monStr = match[1].replace('.','').substring(0,3);
+      var mon = months[monStr] || 1;
+      var day = parseInt(match[2]) || 1;
+      var sortKey = year * 10000 + mon * 100 + day;
+      if (!yearMap[year]) yearMap[year] = [];
+      yearMap[year].push({el: item.cloneNode(true), sort: sortKey});
+    }
+  });
+
+  var years = Object.keys(yearMap).sort(function(a,b){ return b - a; });
+  years.forEach(function(year) {
+    yearMap[year].sort(function(a,b){ return b.sort - a.sort; });
+    var h3 = document.createElement('h3');
+    h3.textContent = year;
+    yearView.appendChild(h3);
+    var ul = document.createElement('ul');
+    yearMap[year].forEach(function(obj){ ul.appendChild(obj.el); });
+    yearView.appendChild(ul);
+  });
+
+  // Re-bind play button listeners for cloned year-view items
+  yearView.querySelectorAll('.media-embed-toggle').forEach(function(btn) {
+    btn.addEventListener('click', toggleEmbed);
+  });
+
+  // Bind play buttons in type view
   document.querySelectorAll('.media-embed-toggle').forEach(function(btn) {
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      var li = this.closest('li');
-      var existing = li.querySelector('.media-embed-player');
-      if (existing) {
-        existing.style.display = existing.style.display === 'none' ? 'block' : 'none';
-        return;
-      }
-      var div = document.createElement('div');
-      div.className = 'media-embed-player';
-      div.style.marginTop = '0.5rem';
-      if (this.dataset.embed === 'audio') {
-        var audio = document.createElement('audio');
-        audio.controls = true;
-        audio.style.width = '100%';
-        audio.src = this.dataset.src;
-        div.appendChild(audio);
-      } else {
-        var iframe = document.createElement('iframe');
-        iframe.width = '100%';
-        iframe.height = '166';
-        iframe.scrolling = 'no';
-        iframe.frameBorder = 'no';
-        iframe.allow = 'autoplay';
-        iframe.src = this.dataset.src;
-        iframe.style.borderRadius = '8px';
-        div.appendChild(iframe);
-      }
-      li.appendChild(div);
-    });
+    btn.addEventListener('click', toggleEmbed);
   });
 });
+
+function toggleEmbed(e) {
+  e.preventDefault();
+  var li = this.closest('li');
+  var existing = li.querySelector('.media-embed-player');
+  if (existing) {
+    existing.style.display = existing.style.display === 'none' ? 'block' : 'none';
+    return;
+  }
+  var div = document.createElement('div');
+  div.className = 'media-embed-player';
+  div.style.marginTop = '0.5rem';
+  if (this.dataset.embed === 'audio') {
+    var audio = document.createElement('audio');
+    audio.controls = true;
+    audio.style.width = '100%';
+    audio.src = this.dataset.src;
+    div.appendChild(audio);
+  } else {
+    var iframe = document.createElement('iframe');
+    iframe.width = '100%';
+    iframe.height = '166';
+    iframe.scrolling = 'no';
+    iframe.frameBorder = 'no';
+    iframe.allow = 'autoplay';
+    iframe.src = this.dataset.src;
+    iframe.style.borderRadius = '8px';
+    div.appendChild(iframe);
+  }
+  li.appendChild(div);
+}
 </script>
