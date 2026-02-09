@@ -8,7 +8,7 @@ nav_order: 4
 ---
 
 <style>
-  .media-toggle {
+  .pub-toggle {
     border: 1px solid var(--global-theme-color);
     color: var(--global-theme-color);
     background: transparent;
@@ -18,18 +18,18 @@ nav_order: 4
     font-size: 0.875rem;
     margin-right: 0.25rem;
   }
-  .media-toggle:hover {
+  .pub-toggle:hover {
     background: var(--global-theme-color);
     color: white;
   }
-  .media-toggle.active {
+  .pub-toggle.active {
     background: var(--global-theme-color);
     color: white;
   }
 </style>
 <div style="margin-bottom: 1.5rem;">
-  <button class="media-toggle active" id="btn-type" onclick="showMediaView('type')">By Type</button>
-  <button class="media-toggle" id="btn-year" onclick="showMediaView('year')">By Year</button>
+  <button class="pub-toggle active" id="btn-type" onclick="showMediaView('type')">By Type</button>
+  <button class="pub-toggle" id="btn-year" onclick="showMediaView('year')">By Year</button>
 </div>
 
 <div id="media-type-start"></div>
