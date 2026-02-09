@@ -334,6 +334,7 @@ filtered_bibtex_keywords:
     pmid,
     podcast,
     poster,
+    visual_summary,
     preview,
     selected,
     slides,

@@ -30,3 +30,11 @@ At SMU, I serve as IRB Chair and Faculty Senate Chair. I was Director of PhD Pro
 My research focuses on consumer behavior and decision making, affect, consumer experience, and technology-mediated marketplaces (e.g., crowdfunding, AI/LLMs, and voice technology). My work has appeared in leading journals and is supported by competitive external grants, including four MOE Tier 2 grants and a National Research Foundation grant. I serve as Area Editor at the *International Journal of Research in Marketing* and Associate Editor at the *Journal of Consumer Psychology*.
 
 I received my Ph.D. and M.Phil. in Marketing from Columbia University and my B.A. (*Summa Cum Laude*) in Economics from UC Irvine.
+
+<div style="margin-top: 2rem;">
+  <h4>Featured Research</h4>
+  <a href="/publications/#chang2023voices">
+    <img src="/assets/img/voice_numerosity_infographic.png" alt="More Voices Persuade: The Attentional Benefits of Voice Numerosity" style="width:100%;max-width:900px;border-radius:8px;" />
+  </a>
+  <p style="font-size:0.85em;color:gray;margin-top:0.5rem;">Chang, H. H., Mukherjee, A., & Chattopadhyay, A. (2023). More Voices Persuade: The Attentional Benefits of Voice Numerosity. <em>Journal of Marketing Research</em>, 60(4), 687–706.</p>
+</div>
