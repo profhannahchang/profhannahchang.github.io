@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Publications by categories in reversed chronological order.
+description: Refereed publications, including journal articles, book chapters, business case studies, textbooks, conference proceedings, and public scholarship.
 nav: true
 nav_order: 2
 ---
