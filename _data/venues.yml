@@ -35,5 +35,14 @@ Biz Times:
   color: "#6c757d"
 Tabla!:
   color: "#6c757d"
+# Conference Proceedings - amber
+ACR:
+  color: "#d4850e"
+AMA:
+  color: "#d4850e"
 EMAC:
-  color: "#6c757d"
+  color: "#d4850e"
+ANZMAC:
+  color: "#d4850e"
+AP-ACR:
+  color: "#d4850e"
