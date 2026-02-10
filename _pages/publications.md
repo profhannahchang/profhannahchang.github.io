@@ -76,7 +76,10 @@ nav_order: 2
 <hr>
 
 <h3>Conference Proceedings</h3>
-<p>16 refereed conference proceedings (2007–2023), with publications in <em>Advances in Consumer Research</em>, <em>AMA Winter Academic Conference Proceedings</em>, <em>Proceedings of the European Marketing Academy</em>, <em>ANZMAC Conference Proceedings</em>, and <em>Asia-Pacific Advances in Consumer Research</em>. Full list available upon request.</p>
+
+<div class="publications">
+{% bibliography --query @*[keywords=proceedings] %}
+</div>
 
 </div>
 
@@ -86,11 +89,6 @@ nav_order: 2
 <div class="publications">
 {% bibliography %}
 </div>
-
-<hr>
-
-<h3>Conference Proceedings</h3>
-<p>16 refereed conference proceedings (2007–2023), with publications in <em>Advances in Consumer Research</em>, <em>AMA Winter Academic Conference Proceedings</em>, <em>Proceedings of the European Marketing Academy</em>, <em>ANZMAC Conference Proceedings</em>, and <em>Asia-Pacific Advances in Consumer Research</em>. Full list available upon request.</p>
 
 </div>
 
