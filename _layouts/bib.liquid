@@ -249,11 +249,7 @@
         {% endif %}
       {% endif %}
       {% if entry.slides %}
-        {% if entry.slides contains '://' %}
-          <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
-        {% else %}
-          <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
-        {% endif %}
+        <a class="btn btn-sm z-depth-0" role="button" onclick="var el=this.closest('.row').querySelector('.slides-embed');el.style.display=el.style.display==='none'?'block':'none';">Slides</a>
       {% endif %}
       {% if entry.podcast %}
         <a class="btn btn-sm z-depth-0" role="button" onclick="var el=this.closest('.row').querySelector('.podcast-embed');el.style.display=el.style.display==='none'?'block':'none';">Podcast</a>
@@ -403,6 +399,19 @@
       <div class="podcast-embed" style="display:none;margin-top:10px;">
         <div style="text-align: center;">
           <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="{{ entry.podcast | replace: 'podcasts.apple.com', 'embed.podcasts.apple.com' }}"></iframe>
+        </div>
+      </div>
+    {% endif %}
+
+    {% if entry.slides %}
+      <!-- Hidden slides embed block -->
+      <div class="slides-embed" style="display:none;margin-top:10px;">
+        <div style="text-align: center;">
+          {% if entry.slides contains '://' %}
+            <iframe src="{{ entry.slides }}" width="100%" height="600px" style="border: none; max-width:900px; border-radius:8px;" allow="autoplay"></iframe>
+          {% else %}
+            <iframe src="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" width="100%" height="600px" style="border: none; max-width:900px; border-radius:8px;" allow="autoplay"></iframe>
+          {% endif %}
         </div>
       </div>
     {% endif %}
