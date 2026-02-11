@@ -43,11 +43,11 @@ nav_order: 4
 
 ### Television & Video Interviews
 
-- **Online Travel Booking Services** — Channel NewsAsia *Singapore Tonight*, April 2018. [(watch)](https://mediacast.smu.edu.sg/media/Assoc+Prof+Hannah+Chang+interviewed+about+online+travel+booking+services+(CNA)/0_c513qq60/44087142)
+- **Online Travel Booking Services** — Channel NewsAsia *Singapore Tonight*, April 2018.
 
-- **Experimental Retailing** — SMU Mediacast, 2017. [(watch)](https://mediacast.smu.edu.sg/media/Interview+with+SMU+Associate+Professor+of+Marketing+Hannah+Chang+on+Experimental+Retailing/0_h9785lb9)
+- **Experimental Retailing** — SMU Mediacast, 2017.
 
-- **Mobile E-Pay** — SMU Mediacast. [(watch)](https://mediacast.smu.edu.sg/media/SMU+Assistant+Prof+of+Marketing+Hannah+Chang+on+mobile+e-pay/0_iudln33x)
+- **Mobile E-Pay** — SMU Mediacast.
 
 ---
 
