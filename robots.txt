@@ -2,3 +2,7 @@ User-agent: *
 Disallow:
 
 Sitemap: https://profhannahchang.github.io/sitemap.xml
+
+# Structured data for AI/LLM bots
+# llms.txt: https://profhannahchang.github.io/llms.txt
+# BibTeX bibliography: https://profhannahchang.github.io/assets/bibliography/papers.bib
