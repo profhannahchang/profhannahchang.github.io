@@ -1,0 +1,59 @@
+---
+permalink: /llms.txt
+layout: none
+sitemap: false
+---
+# Hannah H. Chang
+
+> Marketing professor at Singapore Management University. Research focuses on consumer behavior, affect and decision making, voice technology, AI and marketing, and crowdfunding.
+
+Hannah H. Chang is a Professor of Marketing at Singapore Management University (SMU) Lee Kong Chian School of Business. She serves as IRB Chair and Faculty Senate Chair. She is Area Editor at the International Journal of Research in Marketing and Associate Editor at the Journal of Consumer Psychology.
+
+- ORCID: 0000-0001-8653-0990
+- Google Scholar: https://scholar.google.com/citations?user=Qwr1ZwgAAAAJ
+- Faculty page: https://faculty.smu.edu.sg/profile/hannah-h-chang-2236
+- ResearchGate: https://www.researchgate.net/profile/Hannah-Chang-6/
+
+## Research Areas
+
+Consumer behavior, affect and emotion in decision making, voice technology, AI and marketing, crowdfunding, regulatory focus, consumer experience
+
+## Journal Publications
+
+- Lin, Keinan, Chang, & Lehmann (2025). "The Robin Hood Effect in Consumer Transgressions Against Firms." *Journal of Consumer Research*. Forthcoming. https://ink.library.smu.edu.sg/lkcsb_research/7773/
+- Fisar et al. (2024). "Reproducibility in Management Science." *Management Science*, 70(3), 1343-1356. https://ink.library.smu.edu.sg/lkcsb_research/7441/
+- Chang, Mukherjee, & Chattopadhyay (2023). "More Voices Persuade: The Attentional Benefits of Voice Numerosity." *Journal of Marketing Research*, 60(4), 687-706. https://ink.library.smu.edu.sg/lkcsb_research/7093/
+- Chang & Hung (2018). "Mirror, Mirror on the Retail Wall: Self-focused Attention Promotes Reliance on Feelings in Consumer Decisions." *Journal of Marketing Research*, 55(August), 586-599. https://ink.library.smu.edu.sg/lkcsb_research/5788/
+- Chang & Pham (2018). "Affective Boundaries of Scope Insensitivity." *Journal of Consumer Research*, 45(August), 403-428. https://ink.library.smu.edu.sg/lkcsb_research/5825/
+- Hong & Chang (2015). "I Follow My Heart and We Rely on Reasons: The Impact of Self-Construal on Reliance on Feelings versus Reasons in Decision Making." *Journal of Consumer Research*, 41(April), 1392-1411. https://ink.library.smu.edu.sg/lkcsb_research/4377/
+- Chang & Pham (2013). "Affect as a Decision-Making System of the Present." *Journal of Consumer Research*, 40(June), 42-63. https://ink.library.smu.edu.sg/lkcsb_research/3249/
+- Pham & Chang (2010). "Regulatory Focus, Regulatory Fit, and the Search and Consideration of Choice Alternatives." *Journal of Consumer Research*, 37(December), 626-640. https://ink.library.smu.edu.sg/lkcsb_research/2917/
+- Weber, Johnson, Milch, Chang, Brodscholl, & Goldstein (2007). "Asymmetric Discounting in Intertemporal Choice: A Query-Theory Account." *Psychological Science*, 18(6), 516-523. https://ink.library.smu.edu.sg/lkcsb_research/1315/
+
+## Book Chapters
+
+- Chang & Mukherjee (2023). "Using Machine Learning to Extract Insights from Consumer Data." In *Encyclopaedia of Data Science and Machine Learning*, 1779-1793. IGI Global. https://ink.library.smu.edu.sg/lkcsb_research/7095/
+- Chang & Mukherjee (2023). "Artificial Intelligence, Consumers, and the Experience Economy." In *Encyclopaedia of Data Science and Machine Learning*, 567-578. IGI Global. https://ink.library.smu.edu.sg/lkcsb_research/7094/
+- Mukherjee, Chang, & Chattopadhyay (2019). "Crowdfunding: Sharing the Entrepreneurial Journey." In *Handbook of the Sharing Economy*, 152-162. Edward Elgar. https://ink.library.smu.edu.sg/lkcsb_research/6476/
+
+## Case Studies
+
+- Mukherjee, Chang, & Wibowo (2025). "Managing the Personalization Paradox: Lessons from Spotify's AI DJ." *Journal of Information Technology Teaching Cases*. Forthcoming.
+- Chang et al. (2022). "Marriott International---Deploying AI Across Hotel Brands in Singapore." SMU Case (SMU-22-0016). https://hbsp.harvard.edu/product/SMU070-PDF-ENG
+- Lee, Chang, & Mukherjee (2020). "Funding Societies: Using Fintech to Support Small Businesses in Singapore." SMU Case (SMU-20-0006). https://ink.library.smu.edu.sg/cases_coll_all/304/
+- Merrill, Chang, Liang, Yang, & Wong (2019). "Growing a Global Forest: Ant Financial, Alipay, and the Ant Forest." SMU Case (SMU-19-0019).
+- Keinan, Crener, & Chang (2017). "1436: The First Pure Chinese Luxury Fashion Brand?" Harvard Business School Case (HBS-N9-517-100). https://www.hbs.edu/faculty/Pages/item.aspx?num=52345
+- Chang, Lee, & Mukherjee (2017). "Pyra: Delighting Millennials with Beauty in a Subscription Box." SMU Case (SMU-17-0011). https://ink.library.smu.edu.sg/cases_coll_all/193/
+
+## Practitioner Publications
+
+- Mukherjee & Chang (2025). "Fluid Agency in AI Systems: A Case for Functional Equivalence in Copyright, Patent, and Tort." *The Washington Journal of Law, Technology & Arts*. Forthcoming. https://ink.library.smu.edu.sg/lkcsb_research/7801/
+- Mukherjee & Chang (2025). "Copyright Laundering Through the AI Ouroboros: Adapting the 'Fruit of the Poisonous Tree' Doctrine to Recursive AI Training." *The Rutgers Computer and Technology Law Journal*. Forthcoming. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5256625
+- Mukherjee & Chang (2023). "Managing the Creative Frontier of Generative AI: The Novelty-Usefulness Tradeoff." *California Management Review Insights*, 1-13.
+- Chang, Mukherjee, & Chattopadhyay (2023). "Boosting Persuasion: The Attention Benefits of Multiple Narrating Voices." *California Management Review Insights*, 1-9. https://ink.library.smu.edu.sg/lkcsb_research/7172/
+
+## Structured Data
+
+- Full publications page: {{ site.url }}/publications/
+- BibTeX bibliography: {{ site.url }}/assets/bibliography/papers.bib
+- Sitemap: {{ site.url }}/sitemap.xml

@@ -5,3 +5,7 @@ User-agent: *
 Disallow:
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+
+# Structured data for AI/LLM bots
+# llms.txt: {{ site.baseurl | prepend: site.url }}/llms.txt
+# BibTeX bibliography: {{ site.baseurl | prepend: site.url }}/assets/bibliography/papers.bib

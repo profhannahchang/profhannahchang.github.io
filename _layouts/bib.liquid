@@ -1,5 +1,42 @@
 ---
 ---
+<!-- Schema.org structured data for this publication -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": {{ entry.title | jsonify }},
+  "headline": {{ entry.title | jsonify }},
+  "author": [
+    {%- for author in entry.author_array -%}
+    {
+      "@type": "Person",
+      "name": "{{ author.first }} {{ author.last }}"
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ],
+  "datePublished": "{{ entry.year }}",
+  {% if entry.journal %}"isPartOf": {
+    "@type": "Periodical",
+    "name": {{ entry.journal | jsonify }}
+  },{% endif %}
+  {% if entry.booktitle %}"isPartOf": {
+    "@type": "Book",
+    "name": {{ entry.booktitle | jsonify }}
+  },{% endif %}
+  {% if entry.volume %}"volumeNumber": {{ entry.volume | jsonify }},{% endif %}
+  {% if entry.number %}"issueNumber": {{ entry.number | jsonify }},{% endif %}
+  {% if entry.pages %}"pagination": "{{ entry.pages | replace: '--', '-' }}",{% endif %}
+  {% if entry.doi %}"sameAs": "https://doi.org/{{ entry.doi }}",{% endif %}
+  {% if entry.html %}"url": {{ entry.html | jsonify }},{% endif %}
+  {% if entry.pdf %}"contentUrl": {{ entry.pdf | jsonify }},{% endif %}
+  {% if entry.abstract %}"abstract": {{ entry.abstract | strip_html | jsonify }},{% endif %}
+  "publisher": {
+    "@type": "Organization",
+    "name": {% if entry.publisher %}{{ entry.publisher | jsonify }}{% elsif entry.journal %}{{ entry.journal | jsonify }}{% else %}"Unknown"{% endif %}
+  }
+}
+</script>
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
