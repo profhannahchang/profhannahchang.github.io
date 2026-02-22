@@ -7,6 +7,7 @@
       <div class="course-list">
         {% assign year_courses = year_group.items | sort: 'term' %}
         {% for course in year_courses %}
+          {% unless course.search_exclude %}
           <div class="course-item">
             <h3 class="course-title">
               <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
@@ -28,6 +29,7 @@
               </div>
             {% endif %}
           </div>
+          {% endunless %}
         {% endfor %}
       </div>
     {% endfor %}

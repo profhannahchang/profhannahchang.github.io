@@ -1,4 +1,5 @@
 ---
+search_exclude: true
 layout: page
 title: project 6
 description: a project with no image

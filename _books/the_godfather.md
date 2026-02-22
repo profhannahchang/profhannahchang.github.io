@@ -1,4 +1,5 @@
 ---
+search_exclude: true
 layout: book-review
 title: The Godfather
 author: Mario Puzo
