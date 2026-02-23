@@ -8,7 +8,7 @@ description:
 ---
 
 <div id="cv-desktop">
-  <object data="{{ '/assets/pdf/CV.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px" style="border: none;">
+  <object data="{{ '/assets/pdf/CV.pdf' | relative_url }}#toolbar=0" type="application/pdf" width="100%" height="800px" style="border: none;">
     <p>Unable to display PDF. <a href="{{ '/assets/pdf/CV.pdf' | relative_url }}" target="_blank">Download CV (PDF)</a></p>
   </object>
 </div>
