@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-media",
           title: "media",
-          description: "Selected media appearances, interviews, and commentaries.",
+          description: "Selected media appearances, interviews, and commentaries. This page is still under construction.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/media/";
