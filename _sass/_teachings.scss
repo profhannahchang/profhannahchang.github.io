@@ -75,3 +75,63 @@
   padding-left: 18px;
   margin-bottom: 0;
 }
+
+/* Teaching page course list with Abs buttons */
+ul.teaching-list {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    margin-bottom: 0.35rem;
+  }
+
+  .course-entry {
+    .course-name {
+      display: inline;
+    }
+
+    .links {
+      display: inline;
+      margin-left: 0.4rem;
+
+      a.btn {
+        color: var(--global-text-color);
+        border: 1px solid var(--global-text-color);
+        padding: 0.1rem 0.5rem;
+        font-size: 0.7rem;
+        vertical-align: middle;
+
+        &:hover {
+          color: var(--global-theme-color);
+          border-color: var(--global-theme-color);
+        }
+      }
+    }
+
+    .hidden {
+      font-size: 0.875rem;
+      max-height: 0;
+      overflow: hidden;
+      text-align: justify;
+      transition: all 0.15s ease;
+
+      p {
+        line-height: 1.4em;
+        margin: 10px 0;
+      }
+    }
+
+    .hidden.open {
+      max-height: 100em;
+      transition: all 0.15s ease;
+    }
+
+    div.abstract.hidden {
+      border: dashed 1px var(--global-bg-color);
+    }
+
+    div.abstract.hidden.open {
+      border-color: var(--global-text-color);
+    }
+  }
+}
