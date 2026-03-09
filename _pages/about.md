@@ -8,6 +8,7 @@ subtitle: >
 profile:
   align: right
   image: prof_pic.jpg
+  image_alt: Hannah H. Chang, Associate Professor of Marketing at Singapore Management University
   image_circular: false # crops the image to make it circular
   more_info: >
 
