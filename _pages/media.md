@@ -2,7 +2,7 @@
 layout: page
 permalink: /media/
 title: media
-description: Selected media appearances, interviews, and commentaries. This page is still under construction.
+description: Selected media appearances, interviews, and commentaries. <b>This page is still under construction.</b>
 nav: true
 nav_order: 4
 ---
