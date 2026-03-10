@@ -41,6 +41,10 @@ nav_order: 6
   <li>
     <div class="course-entry">
       <div class="course-name">MKTG713: Measurement, Questionnaire Design, & Data Analysis</div>
+      <div class="links"><a class="abstract btn btn-sm z-depth-0" role="button">About</a></div>
+      <div class="abstract hidden">
+        <p>This course will cover the fundamental elements of designing and evaluating questionnaires. Questionnaires are commonly used in survey research and experimentation, among other research methods. We will begin with an overview of the building blocks of questionnaire design: measurement and measurement scales. We will then focus on the process of responding to questions, challenges, and options for asking a variety of questions about attitudinal and behavioural responses. In particular, we will review commonly used question formats, discuss practical techniques for evaluating questions, and review mode specific questionnaire characteristics. Finally, we will discuss the fundamentals in analysing data from these various question formats. To exemplify key concepts discussed, we will use marketing as the illustrative context: we will present examples through marketing research surveys and discuss how questionnaire methodology is applied to study marketing problems.</p>
+      </div>
     </div>
   </li>
   <li>
@@ -64,11 +68,19 @@ nav_order: 6
   <li>
     <div class="course-entry">
       <div class="course-name">MKTG704: Consumer Behavior PhD Seminar</div>
+      <div class="links"><a class="abstract btn btn-sm z-depth-0" role="button">About</a></div>
+      <div class="abstract hidden">
+        <p>The purpose of this course is to provide PhD students with a solid foundation for critical thinking and research in the area of consumer behavior. Specifically, (1) to familiarize you with research in social psychology and marketing that may help you to understand how different marketing strategies affect consumer behavior, (2) to give you a strong foundation for critical thinking in the area of consumer behavior, and (3) to enable you to conceptualize, operationalize, and develop research ideas in consumer behavior. Given these course objectives, the focus is on understanding current theoretical and methodological approaches to various aspects of consumer behavior, as well as advancing this knowledge by developing testable hypotheses and theoretical perspectives that build on the current knowledge base. This means that you have to actively read prior research in different areas—try to understand the authors' ideas and develop the habit of constructive criticism of the research. When you read each of the assigned paper, make your own notes and write down questions. Try to understand what is the research question being addressed, what is the methodology used, what are the main findings, what are some possible alternative explanations to the results, and how the research can be improved or extended (i.e., directions for future research).</p>
+      </div>
     </div>
   </li>
   <li>
     <div class="course-entry">
       <div class="course-name">MKTG730: Pro-Seminar in Marketing</div>
+      <div class="links"><a class="abstract btn btn-sm z-depth-0" role="button">About</a></div>
+      <div class="abstract hidden">
+        <p>The purpose of this course is to introduce the students with the Marketing Faculty members' main research topics and interests to the new PhD students. Each week one or two faculty members will present their research work so as to expose incoming PhD students to interesting problems in the field. It is envisaged that this course will jump start the matching process between students and PhD supervisors.</p>
+      </div>
     </div>
   </li>
   <li>
@@ -135,6 +147,10 @@ nav_order: 6
   <li>
     <div class="course-entry">
       <div class="course-name">MGMT301: Business Study Mission: Taiwan (SMU-SUTD)</div>
+      <div class="links"><a class="abstract btn btn-sm z-depth-0" role="button">About</a></div>
+      <div class="abstract hidden">
+        <p>Taiwan, an island nation, is officially known as the Republic of China (ROC). The purpose of this business study mission (BSM) is to help students gain insights to globalization and business practices in Taiwan-based companies from a marketing perspective. Taiwan underwent rapid industrialization and high economic growth rate between the 1960s and the 1990s; as such, its economy was dubbed one of the "Four Asian Tigers" alongside Hong Kong, Singapore, and South Korea. Modern Taiwan is a top global player in several industries related to consumer products, including electronics, technology, and (other) consumer goods. Some well-known technology companies that are founded and headquartered in Taiwan include Acer, Asus, and HTC. Recently, Taiwan's cultural and creative industries are emerging and accelerating in development throughout the island nation. Through pre-trip class seminars and a field trip to Taiwan, this BSM course aims to help students gain insights into the overall business environment of Taiwan.</p>
+      </div>
     </div>
   </li>
 </ul>
