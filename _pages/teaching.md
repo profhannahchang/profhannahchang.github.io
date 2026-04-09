@@ -179,13 +179,14 @@ Managing Marketing Programs (MBA Core), New Product Development (EMBA/MBA), Mark
 
 - Chen Hongrui, CKGSB-SMU DBA candidate, 2027 (expected)
 - Liu Huicheng, CKGSB-SMU DBA candidate, 2027 (expected)
-- Wang Xiaosong, CKGSB-SMU DBA candidate, 2027 (expected)
 - Sun Bo, SJTU-SMU DBA candidate, 2027 (expected)
-- Zhang Hongjun, CKGSB-SMU DBA candidate, 2026 (expected)
-- Wang Liang, SJTU-SMU DBA candidate, 2026 (expected)
+- Wang Kaiqi, SJTU-SMU DBA candidate, 2027 (expected)
+- Wang Xiaosong, CKGSB-SMU DBA candidate, 2026 (expected)
 - Valerie Lee Oon Ling, SMU DBA candidate, 2026 (expected)
 - Randy Sison De Guzman, SMU DBA candidate, 2026 (expected)
-- Sun Maohua, SJTU-SMU DBA candidate, 2026
+- Zhang Hongjun, CKGSB-SMU DBA, 2026
+- Wang Liang, SJTU-SMU DBA, 2026
+- Sun Maohua, SJTU-SMU DBA, 2026
 - Chen Hao, CKGSB-SMU DBA, 2025
 - Yao Shuoyu, CKGSB-SMU DBA, 2025
 - Huang Xiaowei, CKGSB-SMU DBA, 2025
