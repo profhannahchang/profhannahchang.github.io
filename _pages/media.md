@@ -41,6 +41,22 @@ nav_order: 4
 
 <div id="media-type-start"></div>
 
+### Newspaper Commentaries
+
+- **Chang, H. H.** and Zhang, J. (2025). Will Labubu be a keeper like Hello Kitty and Pokemon? *The Straits Times*, January 5. [(read)](https://news.smu.edu.sg/news/2025/01/05/will-labubu-be-keeper-hello-kitty-and-pokemon)
+
+- **Chang, H. H.** (2023). In Customer Service, when is a Full Refund Justified? *The Straits Times*, October 12. [(read)](https://news.smu.edu.sg/news/2023/10/11/customer-service-when-full-refund-justified)
+
+- **Chang, H. H.**, Guillermo, E. J., and Chai, C. (2021). Leveraging Reward-based Crowdfunding during Covid-19. *The Business Times*, December 9. [(read)](https://news.smu.edu.sg/news/2021/12/09/leveraging-reward-based-crowdfunding-during-covid-19)
+
+- **Chang, H. H.** (2018). How Parents Decide on Baby Milk Purchases. *The Straits Times*, February 9. [(read)](https://news.smu.edu.sg/news/2018/02/09/how-parents-decide-baby-milk-purchases)
+
+- Mukherjee, A. and **Chang, H. H.** (2018). Innovation and Small Business Success. *Tabla!*, June 8. [(read)](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=6996&context=lkcsb_research)
+
+- **Chang, H. H.** (2014). A Dynamic and Growing Community of Marketing Academics in Singapore. *The EMAC Chronicle*, May 4, 19–20.
+
+---
+
 ### Television Programs
 
 - **Phenomenon of Emotion Economy** — *Channel 8 Focus Analysis*, Jan. 1, 2026.
@@ -340,22 +356,6 @@ nav_order: 4
 - **Lackluster Response to Cashless Payment at Hawker Center** — *TODAY*, May 1, 2015.
 
 - **Shoppers Stumble over Tricky Store Names** — *My Paper*, Mar. 11, 2015.
-
----
-
-### Newspaper Commentaries
-
-- **Chang, H. H.** and Zhang, J. (2025). Will Labubu be a keeper like Hello Kitty and Pokemon? *The Straits Times*, January 5. [(read)](https://news.smu.edu.sg/news/2025/01/05/will-labubu-be-keeper-hello-kitty-and-pokemon)
-
-- **Chang, H. H.** (2023). In Customer Service, when is a Full Refund Justified? *The Straits Times*, October 12. [(read)](https://news.smu.edu.sg/news/2023/10/11/customer-service-when-full-refund-justified)
-
-- **Chang, H. H.**, Guillermo, E. J., and Chai, C. (2021). Leveraging Reward-based Crowdfunding during Covid-19. *The Business Times*, December 9. [(read)](https://news.smu.edu.sg/news/2021/12/09/leveraging-reward-based-crowdfunding-during-covid-19)
-
-- **Chang, H. H.** (2018). How Parents Decide on Baby Milk Purchases. *The Straits Times*, February 9. [(read)](https://news.smu.edu.sg/news/2018/02/09/how-parents-decide-baby-milk-purchases)
-
-- Mukherjee, A. and **Chang, H. H.** (2018). Innovation and Small Business Success. *Tabla!*, June 8. [(read)](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=6996&context=lkcsb_research)
-
-- **Chang, H. H.** (2014). A Dynamic and Growing Community of Marketing Academics in Singapore. *The EMAC Chronicle*, May 4, 19–20.
 
 ---
 
