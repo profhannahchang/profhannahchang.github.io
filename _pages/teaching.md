@@ -178,12 +178,12 @@ Managing Marketing Programs (MBA Core), New Product Development (EMBA/MBA), Mark
 **Committee Chair**
 
 - Chen Hongrui, CKGSB-SMU DBA candidate, 2027 (expected)
-- Liu Huicheng, CKGSB-SMU DBA candidate, 2027 (expected)
 - Sun Bo, SJTU-SMU DBA candidate, 2027 (expected)
 - Wang Kaiqi, SJTU-SMU DBA candidate, 2027 (expected)
-- Wang Xiaosong, CKGSB-SMU DBA candidate, 2026 (expected)
-- Valerie Lee Oon Ling, SMU DBA candidate, 2026 (expected)
-- Randy Sison De Guzman, SMU DBA candidate, 2026 (expected)
+- Liu Huicheng, CKGSB-SMU DBA, 2026
+- Wang Xiaosong, CKGSB-SMU DBA, 2026
+- Valerie Lee Oon Ling, SMU DBA, 2026
+- Randy Sison De Guzman, SMU DBA, 2026
 - Zhang Hongjun, CKGSB-SMU DBA, 2026
 - Wang Liang, SJTU-SMU DBA, 2026
 - Sun Maohua, SJTU-SMU DBA, 2026
@@ -195,7 +195,7 @@ Managing Marketing Programs (MBA Core), New Product Development (EMBA/MBA), Mark
 
 **Committee Member**
 
-- John Chen Ting Shi, SMU PhD (General Management) candidate, 2026
+- John Chen Ting Shi, SMU PhD (General Management), 2026
 - Choi Jungkiu, SMU DBA, 2025
 - He Ting, SJTU-SMU DBA, 2025
 - Caleb Chu, SMU DBA, 2024
