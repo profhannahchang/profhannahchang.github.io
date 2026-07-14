@@ -81,13 +81,6 @@ ninja.data = [{
           window.open("https://orcid.org/0000-0001-8653-0990", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/profhannahchang", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
