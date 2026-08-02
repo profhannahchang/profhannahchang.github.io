@@ -32,8 +32,6 @@ I received my Ph.D. and M.Phil. in Marketing from Columbia University and my B.A
 
 <div style="margin-top: 2rem;">
   <h4>Featured Research</h4>
-  <a href="/publications/#chang2023voices">
-    <img src="/assets/img/voice_numerosity_infographic.png" alt="More Voices Persuade: The Attentional Benefits of Voice Numerosity" style="width:100%;max-width:900px;border-radius:8px;" />
-  </a>
-  <p style="font-size:0.85em;color:gray;margin-top:0.5rem;">Chang, H. H., Mukherjee, A., & Chattopadhyay, A. (2023). More Voices Persuade: The Attentional Benefits of Voice Numerosity. <em>Journal of Marketing Research</em>, 60(4), 687–706.</p>
+  <img src="/assets/img/BRIDGE_visual_summary.png" alt="BRIDGE: A Method to Incorporate Real-World Stimuli in Consumer Experiments" style="width:100%;max-width:900px;border-radius:8px;" />
+  <p style="font-size:0.85em;color:gray;margin-top:0.5rem;">Mukherjee, A., Chang, H. H., & Gupta, S. Behavioral Research Through Interpretable, Dimensionality-reduced Generative AI Embeddings (BRIDGE): A Method to Incorporate Real-World Stimuli in Consumer Experiments. Conditionally accepted at <em>Journal of Marketing Research</em>.</p>
 </div>
