@@ -33,6 +33,6 @@ I received my Ph.D. and M.Phil. in Marketing from Columbia University and my B.A
 <div style="margin-top: 2rem;">
   <h4>Featured Research</h4>
   <img src="/assets/img/BRIDGE_visual_summary.png" alt="BRIDGE: A Method to Incorporate Real-World Stimuli in Consumer Experiments" style="width:100%;max-width:900px;border-radius:8px;" />
-  <video controls controlsList="nodownload noremoteplayback" disablePictureInPicture oncontextmenu="return false" preload="metadata" style="width:100%;max-width:900px;border-radius:8px;margin-top:1rem;" src="/assets/video/Mukherjee,%20Chang,%20%26%20Gupta_BRIDGE.mp4" title="The BRIDGE Methodology (video overview)"></video>
+  <iframe src="https://www.youtube.com/embed/FW9BOmXHvcY" title="The BRIDGE Methodology (video overview)" style="width:100%;max-width:900px;aspect-ratio:16/9;border-radius:8px;border:0;margin-top:1rem;display:block;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   <p style="font-size:0.85em;color:gray;margin-top:0.5rem;">Mukherjee, A., Chang, H. H., & Gupta, S. Behavioral Research Through Interpretable, Dimensionality-reduced Generative AI Embeddings (BRIDGE): A Method to Incorporate Real-World Stimuli in Consumer Experiments. Conditionally accepted at <em>Journal of Marketing Research</em>.</p>
 </div>
