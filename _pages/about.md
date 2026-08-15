@@ -34,7 +34,7 @@ I received my Ph.D. and M.Phil. in Marketing from Columbia University and my B.A
   <h4>Featured Research</h4>
   <img src="/assets/img/BRIDGE_visual_summary.png" alt="BRIDGE: A Method to Incorporate Real-World Stimuli in Consumer Experiments" style="width:100%;border-radius:6px;display:block;" />
   <iframe src="https://www.youtube.com/embed/ZZNh8_Fwl1M?rel=0" title="Explainer: The BRIDGE Methodology" style="width:100%;aspect-ratio:16/9;border-radius:6px;border:0;margin-top:1rem;display:block;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <p style="font-size:0.85em;color:gray;margin-top:0.5rem;">Mukherjee, A., Chang, H. H., & Gupta, S. Behavioral Research Through Interpretable, Dimensionality-reduced Generative AI Embeddings (BRIDGE): A Method to Incorporate Real-World Stimuli in Consumer Experiments. Conditionally accepted at <em>Journal of Marketing Research</em>.</p>
+  <p style="font-size:0.85em;color:gray;margin-top:0.5rem;">Mukherjee, A., Chang, H. H., & Gupta, S. Behavioral Research Through Interpretable, Dimensionality-reduced Generative AI Embeddings (BRIDGE): A Method to Incorporate Real-World Stimuli in Consumer Experiments. Forthcoming at <em>Journal of Marketing Research</em>.</p>
   <p style="font-size:0.85em;margin-top:0.25rem;"><a href="https://github.com/dranirbanmukherjee/bridge" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code &amp; Python package on GitHub</a></p>
   <p style="font-size:0.85em;color:gray;margin-top:0.5rem;"><strong>Acknowledgments:</strong> This research was supported by the Ministry of Education (MOE), Singapore, under its Academic Research Fund (AcRF) Tier 2 Grant, No. MOE-T2EP40124-0005.</p>
 </div>
