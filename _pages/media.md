@@ -177,6 +177,8 @@ nav_order: 4
 
 ### Newspaper & Online Articles
 
+- **Why Do People Spend More on Mother's Day Than Father's Day?** — *The Straits Times*, May 10, 2026. Also on *ST Online*, May 9, 2026.
+
 - **Phenomenon of 'Emotion Economy': Are We Paying for Our Emotions** — *8 World Online*, Jan. 1, 2026.
 
 - **How Harmful Are Ultra-Processed Foods, Really?** — *CNA Online*, Dec. 8, 2025.
