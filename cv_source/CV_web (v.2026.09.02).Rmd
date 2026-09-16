@@ -1,0 +1,361 @@
+---
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: svm-latex-cv.tex
+geometry: margin=1in
+
+title: "Curriculum Vitae"
+author: Hannah H. Chang
+
+address: "LKCSB, Singapore Management University · 50 Stamford Rd. \\#05-01 · Singapore 178899"
+fontawesome: yes
+email: hannahchang@smu.edu.sg
+web: profhannahchang.github.io
+updated: yes
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+header-includes:
+  - \day=2\relax  % web version stamped Sept. 2, 2026 (her call, 16 Sep 2026); the 16 Sep dossier CV stays the version of record
+  - \usepackage{longtable,booktabs,array}
+  - \renewcommand{\ttdefault}{lmtt}
+  - \clubpenalty=10000
+  - \widowpenalty=10000
+  - \newcommand{\hfilll}{\hskip 0pt plus 1filll\relax}
+  - \newcommand{\needlines}[1]{\par\penalty-100\begingroup\dimen0=\pagegoal\advance\dimen0 by -\pagetotal\ifdim\dimen0<#1\vfil\break\fi\endgroup}
+---
+
+
+\hspace{0.5cm}
+
+
+# Education
+
+*Columbia University, Graduate School of Business*
+
+- Ph.D., Marketing \hfill 2008
+
+
+- M.Phil., Marketing \hfill 2006
+
+*University of California, Irvine*
+
+- B.A., Economics (*Summa Cum Laude*) \hfill 2002
+
+- Phi Beta Kappa, Order of Merit Award, UROP Fellowship
+
+# Academic Positions
+
+*Singapore Management University, Lee Kong Chian School of Business (LKCSB)*
+
+- Associate Professor of Marketing (with Tenure) \hfill 2017--Present
+
+- Assistant Professor of Marketing \hfill 2009--2016
+
+*Singapore Management University, Longevity Societies and Economies Institute (LSEI)*
+
+- Fellow \hfill 2026--Present
+
+*Georgetown University*
+
+- Short-Term Scholar \hfill 2024
+
+*Columbia University*
+
+- Research Assistant and Teaching Assistant \hfill 2003--2008
+
+# Administrative and Leadership Roles (Appointed / Elected)
+
+- Chair, Institutional Review Board, SMU \hfill 2024--Present
+
+- Faculty Senate Chair, SMU (elected) \hfill 2022--2024, 2025--2026
+
+- Deputy Chair, Institutional Review Board, SMU \hfill 2023--2024
+
+- Director, LKCSB PhD Programmes \hfill 2020--2023
+
+# Competitive Research Grants
+
+
+## External Grants (Nationally competitive grants in Singapore) \hfilll Total: S\$2,081,521
+
+- PI, Singapore MOE AcRF Tier 2 (MOE-T2EP40124-0005), 2025--2028 \hfill S\$572,923
+- PI, Singapore MOE AcRF Tier 2 (MOE-T2EP40221-0008), 2022--2025 \hfill S\$388,297
+- PI, Singapore MOE AcRF Tier 2 (MOE2019-T2-1-183), 2019--2022 \hfill S\$283,272
+- PI, Singapore MOE AcRF Tier 2 (MOE2018-T2-1-181), 2019--2022 \hfill S\$354,624
+- Co-I, National Research Foundation (BSEWWT2017\_04), 2017--2020 \hfill S\$482,405
+
+## Internal Grants (Competitive university-level research funding) \hfilll Total: S\$427,081
+
+- PI, LSEI Grant, 2026--2027 \hfill S\$24,000
+- PI, ABRI Grant, 2025--2026 \hfill S\$7,600
+- PI, ABRI Grant, 2023--2024 \hfill S\$7,800
+- PI, SMU Societal Challenge Research Capacity Building, 2018--2020 \hfill S\$170,000
+- PI, Tier 1 (17-C207-SMU-002), 2017--2019 \hfill S\$71,151
+- PI, Tier 1 (15-C207-SMU-006), 2015--2018 \hfill S\$58,757
+- PI, Tier 1 (14-C207-SMU-013), 2014--2016 \hfill S\$24,297
+- PI, Tier 1 (13-C207-SMU-006), 2013--2014 \hfill S\$24,917
+- PI, Tier 1 (10-C207-SMU-019), 2010--2012 \hfill S\$24,073
+- PI, Tier 1 (09-C207-SMU-007), 2009--2010 \hfill S\$14,486
+
+# Publications
+
+## Academic Publications
+
+1. Mukherjee, A., **Chang, H. H.**, and Gupta, S. (2026). Behavioral Research Through Interpretable, Dimensionality-reduced Generative AI Embeddings (BRIDGE): A Method to Incorporate Real-World Stimuli in Consumer Experiments. *Journal of Marketing Research*, in press. [*Equal authorship between the first two authors*]
+2. Lin, J. D., Keinan, A., **Chang, H. H.**, and Lehmann, D. R. (2026). The Robin Hood Effect in Transgressions Against Firms: How Political Ideology Shapes Consumer Justifications. *Journal of Consumer Research*, 52(6), 1102--1125. [Selected as *Editor's Choice*]
+3. Mukherjee, A. and **Chang, H. H.** (2026). Private Again: Artificial Intelligence Agents Restore Anonymity---Foreclosing Discrimination and Its Proof. *Stetson Law Review Forum*, 10(1), 1--14.
+4. Mukherjee, A. and **Chang, H. H.** (2026). Operational Agency: A Permeable Legal Fiction for Tracing Culpability in AI Systems. *SMU Science and Technology Law Review* (Southern Methodist University), 29(1), 163--231.
+5. Mukherjee, A. and **Chang, H. H.** (2026). Fluid Agency in AI Systems: A Case for Functional Equivalence in Copyright, Patent, and Tort. *The Washington Journal of Law, Technology \& Arts*, 21(1), 1--32.
+6. Mukherjee, A. and **Chang, H. H.** (2025). Copyright Laundering Through the AI Ouroboros: Adapting the "Fruit of the Poisonous Tree" Doctrine to Recursive AI Training. *Rutgers Computer and Technology Law Journal*, 52, 61--112.
+7. Fišar, M., et al. (Management Science Reproducibility Collaboration, incl. **Chang, H. H.**) (2024). Reproducibility in Management Science. *Management Science*, 70(3), 1343--1356.
+8. **Chang, H. H.**, Mukherjee, A., and Chattopadhyay, A. (2023). More Voices Persuade: The Attentional Benefits of Voice Numerosity. *Journal of Marketing Research*, 60(4), 687--706. [*Equal authorship between the first two authors*]
+9. **Chang, H. H.** and Mukherjee, A. (2023). Using Machine Learning to Extract Insights from Consumer Data. In J. Wang (Ed.), *Encyclopedia of Data Science and Machine Learning* (pp. 1779--1793). IGI Global.
+10. **Chang, H. H.** and Mukherjee, A. (2023). Artificial Intelligence, Consumers, and the Experience Economy. In J. Wang (Ed.), *Encyclopedia of Data Science and Machine Learning* (pp. 567--578). IGI Global.
+11. Mukherjee, A., **Chang, H. H.**, and Chattopadhyay, A. (2019). Crowdfunding: Sharing the Entrepreneurial Journey. In R. W. Belk, G. M. Eckhardt, and F. Bardhi (Eds.), *Handbook of the Sharing Economy* (pp. 152--162). Edward Elgar.
+12. **Chang, H. H.** and Pham, M. T. (2018). Affective Boundaries of Scope Insensitivity. *Journal of Consumer Research*, 45(August), 403--428.
+13. **Chang, H. H.** and Hung, I. W. (2018). Mirror, Mirror on the Retail Wall: Self-Focused Attention Promotes Reliance on Feelings in Consumer Decisions. *Journal of Marketing Research*, 55(August), 586--599. [*Equal authorship*]
+14. Hong, J. and **Chang, H. H.** (2015). "I" Follow My Heart and "We" Rely on Reasons: The Impact of Self-Construal on Reliance on Feelings versus Reasons in Decision Making. *Journal of Consumer Research*, 41(April), 1392--1411. [*Equal authorship*]
+15. **Chang, H. H.** and Pham, M. T. (2013). Affect as a Decision-Making System of the Present. *Journal of Consumer Research*, 40(June), 42--63.
+16. Pham, M. T. and **Chang, H. H.** (2010). Regulatory Focus, Regulatory Fit, and the Search and Consideration of Choice Alternatives. *Journal of Consumer Research*, 37(December), 626--640.
+17. Weber, E. U., Johnson, E. J., Milch, K. F., **Chang, H.**, Brodscholl, J. C., and Goldstein, D. G. (2007). Asymmetric Discounting in Intertemporal Choice: A Query-Theory Account. *Psychological Science*, 18(6), 516--523.
+
+## Conference Proceedings
+
+17 refereed conference proceedings (2007--2024) in *Advances in Consumer Research*, *AMA Winter Academic Conference Proceedings*, *Proceedings of the European Marketing Academy*, *ANZMAC Conference Proceedings*, and *Asia-Pacific Advances in Consumer Research*. Full list available upon request.
+
+## Casewriting
+
+1. Mukherjee, A., **Chang, H. H.**, and Wibowo, J. (2025). Managing the Personalization Paradox: Lessons from Spotify's AI DJ. *Journal of Information Technology Teaching Cases*, with Teaching Note.
+
+2. **Chang, H. H.**, Chua, J. K. H., Blower, M. L. P., Ng, E. Y. T., Gwee, T. S. X., and De Souza, S. A. (2022). Marriott International: Deploying AI across Hotel Brands in Singapore. SMU Case (SMU-22-0016), with Teaching Note.
+
+3. Lee, M., **Chang, H. H.**, and Mukherjee, A. (2020). Funding Societies: Using Fintech to Support Small Businesses in Singapore. SMU Case (SMU-20-0006), with Teaching Note.
+
+4. Merrill, R., **Chang, H. H.**, Liang, H., Yang, L., and Wong, A. (2019). Growing a Global Forest: Ant Financial, Alipay, and the Ant Forest. SMU Case (SMU-19-0019), with Teaching Note. [*Financial Times Responsible Business Education Award (Teaching Cases), 2022*]
+
+5. Keinan, A., Crener, S., and **Chang, H. H.** (2017). 1436: The First Pure Chinese Luxury Fashion Brand? Harvard Business School Case (HBS-N9-517-100).
+
+6. **Chang, H. H.**, Lee, M., and Mukherjee, A. (2017). Pyra: Delighting Millennials with Beauty in a Subscription Box. SMU Case (SMU-17-0011), with Teaching Note.
+
+## Textbooks
+
+1. Chang, H.-J. and **Chang, H. H.** (2004). *G. Casella and R. L. Berger's Statistical Inference*. Taipei: Hwa-Tai Ltd.
+
+2. Chang, H.-J. and **Chang, H. H.** (2003). *Statistical Problems*. Taipei: Hwa-Tai Ltd.
+
+## Practitioner Publications \& Public Scholarship
+
+1. **Chang, H. H.** and Zhang, J. (2025). Will Labubu Be a Keeper like Hello Kitty and Pokemon? *The Straits Times*, January 5.
+
+2. **Chang, H. H.** (2023). In Customer Service, When Is a Full Refund Justified? *The Straits Times*, October 12.
+
+3. Mukherjee, A. and **Chang, H. H.** (2023). Managing the Creative Frontier of Generative AI: The Novelty-Usefulness Tradeoff. *California Management Review Insights*, 1--13.
+
+4. **Chang, H. H.**, Mukherjee, A., and Chattopadhyay, A. (2023). Boosting Persuasion: The Attention Benefits of Multiple Narrating Voices. *California Management Review Insights*, 1--9.
+
+5. **Chang, H. H.**, Guillermo, E. J., and Chai, C. (2021). Leveraging Reward-based Crowdfunding during Covid-19. *The Business Times*, December 9.
+
+6. Mukherjee, A. and **Chang, H. H.** (2018). Innovation & Small Business Success. *Tabla!*, June 8.
+
+7. **Chang, H. H.** (2018). How Parents Decide on Baby Milk Purchases. *The Straits Times*, February 9.
+
+8. **Chang, H. H.** (2014). A Dynamic and Growing Community of Marketing Academics in Singapore. *The EMAC Chronicle*, May 4, 19--20.
+
+# Conference and Invited Presentations
+
+Over 80 presentations (2005--2026), including invited research seminars at Georgetown University, Technische Universität München, INSEAD, Johns Hopkins University, Peking University, HEC Paris, Columbia University, the Hong Kong University of Science and Technology, the National University of Singapore, Zhejiang University, San Diego State University, Lingnan University, and others; a keynote address at the International Conference on Management Sciences and Decision Making; and conference presentations at ACR, SCP, AMA, EMAC, ANZMAC, ISMS Marketing Science, La Londe, and SJDM. Full list available upon request.
+
+# Awards and Recognitions
+
+- *International Journal of Research in Marketing* (IJRM) Outstanding Area Editor \hfill 2026
+- *Journal of Consumer Psychology* Outstanding Reviewer for 2025 \hfill 2026
+- AMA MarComm SIG Innovations in Marketing Communications Research Award \hfill 2024
+- Financial Times Responsible Business Education Award (Teaching Cases) \hfill 2022
+- SCP Doctoral Consortium Faculty \hfill 2022
+- SMU Dean's Teaching Honour List (Top 20 Faculty) \hfill 2008--2022 (10 years)
+- SMU MSc in Management Program Meritorious Service Award \hfill 2020
+- Retail Research Scholar, Retail Centre of Excellence \hfill 2018--2020
+- Nominee (nominated by LKCSB), SMU Undergraduate Excellent Teacher Award \hfill 2019
+- Lee Kong Chian Fellowship for Research Excellence \hfill 2018--2019
+- SMU Dean's Postgraduate Teaching Honour List \hfill 2018--2019
+- SMU Faculty Contribution to Student Life Award \hfill 2018, 2019
+- ACR Doctoral Consortium Faculty \hfill 2018
+- Academic Fellow, Institute on Asian Consumer Insight \hfill 2016--2018
+- Lee Foundation Fellowship for Research Excellence \hfill 2011--2012
+- La Londe Conference Best Paper Award \hfill 2009
+- Trans-Atlantic Doctoral Conference Fellow \hfill 2008
+- Columbia Business School Doctoral Fellowship \hfill 2003--2008
+- Summa Cum Laude, Phi Beta Kappa, Order of Merit Award, UC Irvine \hfill 2002
+
+# Research Interests
+
+Consumer behavior; judgment and decision making; affect (feelings and moods); consumer experience; innovation and technology-mediated marketplace (crowdfunding, crowdsourcing, AI \& LLMs, voice technology).
+
+# Teaching
+
+## Singapore Management University, LKCSB --- 97 sections (2009--2026; incl. 30 one-on-one doctoral supervision sections)
+
+**Doctoral Level** (DBA, PhD)
+
+- THES721: Dissertation
+- MGMT726: Introductory Research Project
+- MGMT757: Experimental Methods for Business
+- MKTG704: Consumer Behavior PhD Seminar
+- MKTG708: Marketing Strategy
+- MKTG711: Behavioral Decision Research for Marketing Practice
+- MKTG713: Measurement, Questionnaire Design, \& Data Analysis
+- MKTG730: Pro-Seminar in Marketing
+- IDST707: Independent Study
+- IDST708: Independent Study
+
+**Masters Level** (MBA, MSc)
+
+- MKTG625: Consumer Behavior
+- MKTG640: Behavioral Science in Marketing
+- MGMT685: Team Projects (IE-SMU MBA) as faculty advisor
+
+**Undergraduate Level**
+
+- MKTG101: Marketing (School Core, Course Coordinator)
+- MKTG103: Marketing Research (Major Core, Course Coordinator)
+- MGMT301: Business Study Mission: Taiwan (SMU-SUTD)
+
+**Executive Education** --- PropertyGuru (2024), OCBC (2021), Pernod Ricard (2019)
+
+## Guest Lectures
+
+- Tamkang University, Taiwan: Social Power and Decision Making (2018)
+- School of Social Science, SMU: Contingent Valuation (2017)
+- Columbia University: Conjoint Analysis, MBA Tutorial (2006--2008)
+
+## Teaching Assistantships at Columbia University (2003--2008)
+
+Managing Marketing Programs (MBA Core), New Product Development (EMBA/MBA), Marketing Arts Culture \& Education (MBA), Experimental Design and Analysis (PhD), Introduction to Marketing (Undergraduate)
+
+# Doctoral Dissertation Committees
+
+## Committee Chair
+- Wu Chengyue, CKGSB-SMU DBA candidate, 2028 (expected)
+- Zhou Guolian, CKGSB-SMU DBA candidate, 2028 (expected)
+- Wei Dongxiao, CKGSB-SMU DBA candidate, 2028 (expected)
+- Wendy Lu Yiwen, CKGSB-SMU DBA candidate, 2028 (expected)
+- Chen Hongrui, CKGSB-SMU DBA candidate, 2027 (expected)
+- Guo Daijun, CKGSB-SMU DBA candidate, 2027 (expected)
+- Tong Jingjing, SJTU-SMU DBA candidate, 2027 (expected)
+- Sun Bo, SJTU-SMU DBA candidate, 2027 (expected)
+- Wang Kaiqi, SJTU-SMU DBA candidate, 2027 (expected)
+- Li Dawei, SJTU-SMU DBA candidate, 2027 (expected)
+- Liu Huicheng, CKGSB-SMU DBA, 2026
+- Wang Xiaosong, CKGSB-SMU DBA, 2026
+- Valerie Lee Oon Ling, SMU DBA, 2026
+- Randy Sison De Guzman, SMU DBA, 2026
+- Zhang Hongjun, CKGSB-SMU DBA, 2026
+- Wang Liang, SJTU-SMU DBA, 2026
+- Sun Maohua, SJTU-SMU DBA, 2026
+- Chen Hao, CKGSB-SMU DBA, 2025
+- Yao Shuoyu, CKGSB-SMU DBA, 2025
+- Huang Xiaowei, CKGSB-SMU DBA, 2025
+- Luo Pingan, CKGSB-SMU DBA, 2023
+- James Tan Lai Hing, SMU PhD (General Management), 2023
+
+## Committee Member
+
+- Zhang Guodong, SMU DBA candidate, 2027 (expected)
+- John Chen Ting Hsi, SMU PhD (General Management), 2026
+- Choi Jungkiu, SMU DBA, 2025
+- He Ting, SJTU-SMU DBA, 2025
+- Caleb Chu, SMU PhD (General Management), 2024
+- Shi Haifeng, SJTU-SMU DBA, 2024
+- Cheng Yu, CKGSB-SMU DBA, 2023
+
+## External Examiner
+- Liang Keyin, Hong Kong Polytechnic University--Zhejiang University PhD, 2026
+
+# Service
+
+## Service to the Academic Community
+
+**Editorial Roles**
+
+- Associate Editor (Research Articles), *Journal of Consumer Psychology* \hfill 2026--Present
+- Area Editor, *International Journal of Research in Marketing* \hfill 2024--Present
+- Associate Editor (Research Reports), *Journal of Consumer Psychology* \hfill 2021--2023
+
+**Editorial Review Boards**: *Frontiers in Psychology* (2018--Present); *Journal of Business Research* (2016--2026); *Journal of Consumer Psychology* (2018--2020, 2024--2026); *International Journal of Research in Marketing* (2022--2024)
+
+**Ad Hoc Reviewer**: *Journal of Consumer Research*; *Journal of Marketing Research*; *Journal of Marketing*; *Journal of Retailing*; *Journal of the Association for Consumer Research*; *Journal of Public Policy and Marketing*; *European Journal of Marketing*; *Marketing Letters*; *International Journal of Human-Computer Interaction*; *Journal of Experimental Psychology: General*; *Journal of Personality and Social Psychology*; *Psychological Science*; *Emotion*; *Journal of Cross-Cultural Psychology*; *Current Psychology*; *Frontiers in Psychology*; *Journal of Behavioral Decision Making*; *Journal of Economic Psychology*; *Humanities & Social Sciences Communications*; *Communications Psychology (Nature)*; *PLoS ONE*; *npj Artificial Intelligence (Nature)*; *Nature Reviews Computing*; *npj Science of Learning (Nature)*; *Scientific Reports*; *Risk Analysis*; *Information Systems Research*; *Service Science*; *Proceedings of the National Academy of Sciences*
+
+**Conference Leadership**
+
+- Track Co-chair, Consumer Behavior Track, AMA Winter Conference \hfill 2025
+- Co-chair, Early Career Workshop, ACR Annual Conference \hfill 2023
+- Associate Editor, ACR Annual Conference \hfill 2021
+- Program Committee: AMA (2022--Present), ACR (2019--Present), SCP (2018--Present)
+- National Representative for Singapore, EMAC Executive Committee \hfill 2014--2020
+
+**External Service**: External Grant Reviewer, Hong Kong Research Grants Council (2025--Present); External Examiner for Faculty Appointments, Promotion, and Tenure (2019--Present); External Examiner for Doctoral Dissertation (2026); Organising Committee, Ideas Festival, Singapore Social Science Research Council (SSRC) (2025--2026)
+
+## University Service at SMU
+
+**Administrative and Leadership Roles (Appointed / Elected)**
+
+- IRB Chair (2024--Present)
+- Faculty Senate Chair (2022--2024, 2025--2026) (elected)
+- IRB Deputy Chair (2023--2024)
+- Director, LKCSB PhD Programmes (2020--2023)
+
+
+\needlines{4\baselineskip}
+
+**Committees**
+
+- AI and Data in Research Committee (from Oct 2026)
+- LSEI Director Search Committee (2025--Present)
+- IRIS-IRB Project Steering Committee (2025--Present)
+- Taskforce for Interdisciplinary Research and Teaching (2023)
+- Faculty Senate Committee (2022--2026)
+- Faculty Advisory Committee for Teaching and Learning (2022--2025)
+- Inaugural Singapore Rising Scholars Conference Steering Committee (2022--2024)
+- Postgraduate Research Programmes Committee (2020--2023)
+- Graduate College Task and Finish Group (2020--2021)
+- SMU Futures Thinking Group (2020--2021)
+
+## School Service at LKCSB
+
+- LKCSB Scholarship Committee (2023--Present)
+- School Evaluation Committee (2020--2023)
+- MSc in Management Programme Committee (2020--2022)
+- Dean Evaluation Committee (2019--Present)
+- PhD Student Admission Committee (2018--2023)
+- Chair, Faculty Recruitment Committees (2018--2020)
+- Participant, External Academic Review and EQUIS Re-accreditation Panels (2016, 2021)
+- Faculty Interviewer, SMU Undergraduate Admissions (2011--Present)
+- Behavioral Lab Manager (2010--2011, 2012--2013, 2014--2016)
+
+## Marketing Group Service
+- Course Coordinator, MKTG101 Marketing (2020--2022)
+- Social Coordinator (2015--2017)
+- Course Coordinator, MKTG103 Marketing Research (2011--2012)
+- Subject Pool Coordinator (2010--2011, 2012--2013, 2014--2016)
+- Other Group Service: *Member, Evaluation Committee, PhD Qualifying Exam; Supervisor, PhD First-Year Summer Paper; Reviewer, PhD First-Year Summer Paper; Liaison for Conference on Asian Luxury Branding; Grant-writing for the marketing group's EEG and Eye-Tracking equipment acquisition.*
+
+# Professional Affiliations
+
+Association for Consumer Research $\cdot$ Society for Consumer Psychology $\cdot$ Society for Judgment and Decision Making $\cdot$ European Marketing Academy (EMAC)
+
+# Selected Media Coverage
+
+Over 150 media appearances (2014--2026) as an expert on consumer behavior, retail trends, and marketing, in outlets including *The Straits Times*, *The Business Times*, Channel NewsAsia, *TODAY*, *Lianhe Zaobao*, *Berita Harian*, Channel 8, and CNA938.
+
+**Selected TV**: Channel NewsAsia's *Singapore Tonight* and *First Look Asia*; Channel 5's *Talking Point*, *News 5 Tonight*, and *Mind Blown*; Channel 8's *Hello Singapore*, *Focus Analysis*, *Money Week*, *Morning Express*, and *World News*.
+
+**Selected Print/Online**: *The Straits Times*; *The Business Times*; *TODAY*; CNA Online; *The New Paper*; *Lianhe Zaobao*; *Berita Harian*; *Financial Times*; *VICE*; *Asian Scientist Magazine*.
+
+**Radio and Podcasts**: CNA938; MONEY FM 89.3; Capital 95.8FM; Podcast@SMU.
+
+Full list: [profhannahchang.github.io/media](https://profhannahchang.github.io/media/)
