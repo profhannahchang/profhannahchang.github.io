@@ -177,6 +177,8 @@ nav_order: 4
 
 ### Newspaper & Online Articles
 
+- **Dyson's $699 Toothbrush Sees Strong Demand in Singapore, as Users Worldwide Report Device Issues** — *ST Online*, Sep. 17, 2026. [(read)](https://www.straitstimes.com/singapore/dysons-699-toothbrush-sees-strong-demand-in-singapore-as-users-worldwide-report-device-issues)
+
 - **Why Do People Spend More on Mother's Day Than Father's Day?** — *The Straits Times*, May 10, 2026. Also on *ST Online*, May 9, 2026.
 
 - **Phenomenon of 'Emotion Economy': Are We Paying for Our Emotions** — *8 World Online*, Jan. 1, 2026.
