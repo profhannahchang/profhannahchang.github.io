@@ -34,7 +34,7 @@ nav_order: 6
       <div class="course-name">MGMT726: Introductory Research Project</div>
       <div class="links"><a class="abstract btn btn-sm z-depth-0" role="button">About</a></div>
       <div class="abstract hidden">
-        <p>The independent study is meant to give the students a jumpstart on the dissertation, and students can proceed with the independent study as the first step towards the dissertation if the start is meaningful. Empirical analysis is the science of analyzing data to convert information to useful knowledge. The empirical project is intended to provide you with a soft start on doing research with a problem of limited scope. The results of your empirical project can be used in your dissertation, obviously, it will be a small part of your dissertation if you eventually continue to work on the same topic. In this course you will start to conduct research using empirical methods, which rely on observation and experimentation as a pilot project prior to embarking on your dissertation. This course will enable you to use empirical research methods in your field, with a topic and a data set that you will choose in collaboration with your advisor. Topics include the formulation of the question to be investigated and the creation of resulting hypotheses, the collection of data and the analysis of the data collected, and the interpretation and study of analysis results. The methods of data collection and the analysis of data depend on the needs of the research question. These methods include but are not limited to one-on-one interviews, surveys and questionnaires, case study methods, and more involved econometric analysis if you have the right data set. The data can be gathered from publicly available resources.</p>
+        <p>Empirical analysis is the science of analyzing data to convert information to useful knowledge. The empirical project is intended to provide you with a soft start on doing research with a problem of limited scope. The results of your empirical project can be used in your dissertation, obviously, it will be a small part of your dissertation if you eventually continue to work on the same topic. In this course you will start to conduct research using empirical methods, which rely on observation and experimentation as a pilot project prior to embarking on your dissertation. This course will enable you to use empirical research methods in your field, with a topic and a data set that you will choose in collaboration with your advisor. If you do not have an advisor at this stage, you can work on your empirical project with any professor that you are interested in working with on research. Topics include the formulation of the question to be investigated and the creation of resulting hypotheses, the collection of data and the analysis of the data collected, and the interpretation and study of analysis results. The methods of data collection and the analysis of data depend on the needs of the research question (to be decided between you and the professor guiding you on the empirical project). These methods include but are not limited to one-on-one interviews, surveys and questionnaires, case study methods, and more involved econometric analysis if you have the right data set. The data can be gathered from publicly available resources.</p>
       </div>
     </div>
   </li>
@@ -86,11 +86,19 @@ nav_order: 6
   <li>
     <div class="course-entry">
       <div class="course-name">IDST707: Independent Study</div>
+      <div class="links"><a class="abstract btn btn-sm z-depth-0" role="button">About</a></div>
+      <div class="abstract hidden">
+        <p>The independent study is meant to give the students a jumpstart on the dissertation, and students can proceed with the independent study as the first step towards the dissertation if the start is meaningful.</p>
+      </div>
     </div>
   </li>
   <li>
     <div class="course-entry">
       <div class="course-name">IDST708: Independent Study</div>
+      <div class="links"><a class="abstract btn btn-sm z-depth-0" role="button">About</a></div>
+      <div class="abstract hidden">
+        <p>The independent study is meant to give the students a jumpstart on the dissertation, and students can proceed with the independent study as the first step towards the dissertation if the start is meaningful.</p>
+      </div>
     </div>
   </li>
 </ul>
