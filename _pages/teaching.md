@@ -185,10 +185,13 @@ Managing Marketing Programs (MBA Core), New Product Development (EMBA/MBA), Mark
 
 **Committee Chair**
 
+- Wu Chengyue, CKGSB-SMU DBA candidate, 2028 (expected)
 - Zhou Guolian, CKGSB-SMU DBA candidate, 2028 (expected)
 - Wei Dongxiao, CKGSB-SMU DBA candidate, 2028 (expected)
+- Wendy Lu Yiwen, CKGSB-SMU DBA candidate, 2028 (expected)
 - Chen Hongrui, CKGSB-SMU DBA candidate, 2027 (expected)
 - Guo Daijun, CKGSB-SMU DBA candidate, 2027 (expected)
+- Tong Jingjing, SJTU-SMU DBA candidate, 2027 (expected)
 - Sun Bo, SJTU-SMU DBA candidate, 2027 (expected)
 - Wang Kaiqi, SJTU-SMU DBA candidate, 2027 (expected)
 - Li Dawei, SJTU-SMU DBA candidate, 2027 (expected)
